@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963BAC191F435AEE00D9C679 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BAC181F435AEE00D9C679 /* main.m */; };
+		963BAC1C1F435AEE00D9C679 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BAC1B1F435AEE00D9C679 /* AppDelegate.m */; };
+		963BAC1F1F435AEE00D9C679 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BAC1E1F435AEE00D9C679 /* ViewController.m */; };
+		963BAC221F435AEE00D9C679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963BAC201F435AEE00D9C679 /* Main.storyboard */; };
+		963BAC251F435AEE00D9C679 /* GoReminders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 963BAC231F435AEE00D9C679 /* GoReminders.xcdatamodeld */; };
+		963BAC271F435AEE00D9C679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963BAC261F435AEE00D9C679 /* Assets.xcassets */; };
+		963BAC2A1F435AEE00D9C679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963BAC281F435AEE00D9C679 /* LaunchScreen.storyboard */; };
+		963BAC351F435AEE00D9C679 /* GoRemindersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BAC341F435AEE00D9C679 /* GoRemindersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		963BAC311F435AEE00D9C679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963BAC0C1F435AEE00D9C679 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963BAC131F435AEE00D9C679;
+			remoteInfo = GoReminders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		963BAC141F435AEE00D9C679 /* GoReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		963BAC181F435AEE00D9C679 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		963BAC1A1F435AEE00D9C679 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		963BAC1B1F435AEE00D9C679 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		963BAC1D1F435AEE00D9C679 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		963BAC1E1F435AEE00D9C679 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		963BAC211F435AEE00D9C679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		963BAC241F435AEE00D9C679 /* GoReminders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoReminders.xcdatamodel; sourceTree = "<group>"; };
+		963BAC261F435AEE00D9C679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		963BAC291F435AEE00D9C679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		963BAC2B1F435AEE00D9C679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963BAC301F435AEE00D9C679 /* GoRemindersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoRemindersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		963BAC341F435AEE00D9C679 /* GoRemindersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoRemindersTests.m; sourceTree = "<group>"; };
+		963BAC361F435AEE00D9C679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963BAC111F435AEE00D9C679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963BAC2D1F435AEE00D9C679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963BAC0B1F435AEE00D9C679 = {
+			isa = PBXGroup;
+			children = (
+				963BAC161F435AEE00D9C679 /* GoReminders */,
+				963BAC331F435AEE00D9C679 /* GoRemindersTests */,
+				963BAC151F435AEE00D9C679 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963BAC151F435AEE00D9C679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963BAC141F435AEE00D9C679 /* GoReminders.app */,
+				963BAC301F435AEE00D9C679 /* GoRemindersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963BAC161F435AEE00D9C679 /* GoReminders */ = {
+			isa = PBXGroup;
+			children = (
+				963BAC1A1F435AEE00D9C679 /* AppDelegate.h */,
+				963BAC1B1F435AEE00D9C679 /* AppDelegate.m */,
+				963BAC1D1F435AEE00D9C679 /* ViewController.h */,
+				963BAC1E1F435AEE00D9C679 /* ViewController.m */,
+				963BAC201F435AEE00D9C679 /* Main.storyboard */,
+				963BAC261F435AEE00D9C679 /* Assets.xcassets */,
+				963BAC281F435AEE00D9C679 /* LaunchScreen.storyboard */,
+				963BAC2B1F435AEE00D9C679 /* Info.plist */,
+				963BAC231F435AEE00D9C679 /* GoReminders.xcdatamodeld */,
+				963BAC171F435AEE00D9C679 /* Supporting Files */,
+			);
+			path = GoReminders;
+			sourceTree = "<group>";
+		};
+		963BAC171F435AEE00D9C679 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				963BAC181F435AEE00D9C679 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		963BAC331F435AEE00D9C679 /* GoRemindersTests */ = {
+			isa = PBXGroup;
+			children = (
+				963BAC341F435AEE00D9C679 /* GoRemindersTests.m */,
+				963BAC361F435AEE00D9C679 /* Info.plist */,
+			);
+			path = GoRemindersTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963BAC131F435AEE00D9C679 /* GoReminders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963BAC391F435AEE00D9C679 /* Build configuration list for PBXNativeTarget "GoReminders" */;
+			buildPhases = (
+				963BAC101F435AEE00D9C679 /* Sources */,
+				963BAC111F435AEE00D9C679 /* Frameworks */,
+				963BAC121F435AEE00D9C679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoReminders;
+			productName = GoReminders;
+			productReference = 963BAC141F435AEE00D9C679 /* GoReminders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		963BAC2F1F435AEE00D9C679 /* GoRemindersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963BAC3C1F435AEE00D9C679 /* Build configuration list for PBXNativeTarget "GoRemindersTests" */;
+			buildPhases = (
+				963BAC2C1F435AEE00D9C679 /* Sources */,
+				963BAC2D1F435AEE00D9C679 /* Frameworks */,
+				963BAC2E1F435AEE00D9C679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963BAC321F435AEE00D9C679 /* PBXTargetDependency */,
+			);
+			name = GoRemindersTests;
+			productName = GoRemindersTests;
+			productReference = 963BAC301F435AEE00D9C679 /* GoRemindersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963BAC0C1F435AEE00D9C679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Lauren Nicole Roth";
+				TargetAttributes = {
+					963BAC131F435AEE00D9C679 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K8HU92W3ZM;
+						ProvisioningStyle = Automatic;
+					};
+					963BAC2F1F435AEE00D9C679 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K8HU92W3ZM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 963BAC131F435AEE00D9C679;
+					};
+				};
+			};
+			buildConfigurationList = 963BAC0F1F435AEE00D9C679 /* Build configuration list for PBXProject "GoReminders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963BAC0B1F435AEE00D9C679;
+			productRefGroup = 963BAC151F435AEE00D9C679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963BAC131F435AEE00D9C679 /* GoReminders */,
+				963BAC2F1F435AEE00D9C679 /* GoRemindersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963BAC121F435AEE00D9C679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963BAC2A1F435AEE00D9C679 /* LaunchScreen.storyboard in Resources */,
+				963BAC271F435AEE00D9C679 /* Assets.xcassets in Resources */,
+				963BAC221F435AEE00D9C679 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963BAC2E1F435AEE00D9C679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963BAC101F435AEE00D9C679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963BAC1F1F435AEE00D9C679 /* ViewController.m in Sources */,
+				963BAC1C1F435AEE00D9C679 /* AppDelegate.m in Sources */,
+				963BAC191F435AEE00D9C679 /* main.m in Sources */,
+				963BAC251F435AEE00D9C679 /* GoReminders.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963BAC2C1F435AEE00D9C679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963BAC351F435AEE00D9C679 /* GoRemindersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		963BAC321F435AEE00D9C679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 963BAC131F435AEE00D9C679 /* GoReminders */;
+			targetProxy = 963BAC311F435AEE00D9C679 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		963BAC201F435AEE00D9C679 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963BAC211F435AEE00D9C679 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		963BAC281F435AEE00D9C679 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963BAC291F435AEE00D9C679 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963BAC371F435AEE00D9C679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		963BAC381F435AEE00D9C679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963BAC3A1F435AEE00D9C679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K8HU92W3ZM;
+				INFOPLIST_FILE = GoReminders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoReminders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		963BAC3B1F435AEE00D9C679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K8HU92W3ZM;
+				INFOPLIST_FILE = GoReminders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoReminders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		963BAC3D1F435AEE00D9C679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K8HU92W3ZM;
+				INFOPLIST_FILE = GoRemindersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoRemindersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoReminders.app/GoReminders";
+			};
+			name = Debug;
+		};
+		963BAC3E1F435AEE00D9C679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K8HU92W3ZM;
+				INFOPLIST_FILE = GoRemindersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoRemindersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoReminders.app/GoReminders";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963BAC0F1F435AEE00D9C679 /* Build configuration list for PBXProject "GoReminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963BAC371F435AEE00D9C679 /* Debug */,
+				963BAC381F435AEE00D9C679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963BAC391F435AEE00D9C679 /* Build configuration list for PBXNativeTarget "GoReminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963BAC3A1F435AEE00D9C679 /* Debug */,
+				963BAC3B1F435AEE00D9C679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		963BAC3C1F435AEE00D9C679 /* Build configuration list for PBXNativeTarget "GoRemindersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963BAC3D1F435AEE00D9C679 /* Debug */,
+				963BAC3E1F435AEE00D9C679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		963BAC231F435AEE00D9C679 /* GoReminders.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				963BAC241F435AEE00D9C679 /* GoReminders.xcdatamodel */,
+			);
+			currentVersion = 963BAC241F435AEE00D9C679 /* GoReminders.xcdatamodel */;
+			path = GoReminders.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 963BAC0C1F435AEE00D9C679 /* Project object */;
+}
