@@ -35,23 +35,52 @@
     self.service = [[GTLRCalendarService alloc] init];
 }
 
-- (void)signIn:(GIDSignIn *)signIn
+/* - (void)signIn:(GIDSignIn *)signIn
 didSignInForUser:(GIDGoogleUser *)user
      withError:(NSError *)error {
     if (error != nil) {
         [self showAlert:@"Authentication Error" message:error.localizedDescription];
         self.service.authorizer = nil;
     } else {
+ 
         self.signInButton.hidden = true;
         self.output.hidden = false;
         self.service.authorizer = user.authentication.fetcherAuthorizer;
         [self fetchEvents];
     }
+} */
+
+- (void)signIn:(GIDSignIn *)signIn
+didSignInForUser:(GIDGoogleUser *)user
+     withError:(NSError *)error {
+    
+    if (error != nil) {
+        [self showAlert:@"Authentication Error" message:error.localizedDescription];
+        self.service.authorizer = nil;
+    } else {
+        
+        self.signInButton.hidden = true;
+        self.output.hidden = false;
+        self.service.authorizer = user.authentication.fetcherAuthorizer;
+        [self fetchEvents];
+        
+        NSString *userId = user.userID;                  // For client-side use only!
+        NSString *idToken = user.authentication.idToken; // Safe to send to the server
+        NSString *fullName = user.profile.name;
+        NSString *givenName = user.profile.givenName;
+        NSString *familyName = user.profile.familyName;
+        NSString *email = user.profile.email;
+        
+        NSLog(@"%@", user.authentication.idToken);
+        
+    }
+
 }
 
 // Construct a query and get a list of upcoming events from the user calendar. Display the
 // start dates and event summaries in the UITextView.
 - (void)fetchEvents {
+    
     GTLRCalendarQuery_EventsList *query =
     [GTLRCalendarQuery_EventsList queryWithCalendarId:@"primary"];
     query.maxResults = 10;
@@ -82,6 +111,7 @@ didSignInForUser:(GIDGoogleUser *)user
         } else {
             [output appendString:@"No upcoming events found."];
         }
+        
         self.output.text = output;
     } else {
         [self showAlert:@"Error" message:error.localizedDescription];
