@@ -35,21 +35,6 @@
     self.service = [[GTLRCalendarService alloc] init];
 }
 
-/* - (void)signIn:(GIDSignIn *)signIn
-didSignInForUser:(GIDGoogleUser *)user
-     withError:(NSError *)error {
-    if (error != nil) {
-        [self showAlert:@"Authentication Error" message:error.localizedDescription];
-        self.service.authorizer = nil;
-    } else {
- 
-        self.signInButton.hidden = true;
-        self.output.hidden = false;
-        self.service.authorizer = user.authentication.fetcherAuthorizer;
-        [self fetchEvents];
-    }
-} */
-
 - (void)signIn:(GIDSignIn *)signIn
 didSignInForUser:(GIDGoogleUser *)user
      withError:(NSError *)error {
@@ -72,9 +57,7 @@ didSignInForUser:(GIDGoogleUser *)user
         NSString *email = user.profile.email;
         
         NSLog(@"%@", user.authentication.idToken);
-        
     }
-
 }
 
 // Construct a query and get a list of upcoming events from the user calendar. Display the
