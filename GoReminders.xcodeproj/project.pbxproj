@@ -16,6 +16,7 @@
 		963BAC271F435AEE00D9C679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963BAC261F435AEE00D9C679 /* Assets.xcassets */; };
 		963BAC2A1F435AEE00D9C679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963BAC281F435AEE00D9C679 /* LaunchScreen.storyboard */; };
 		963BAC351F435AEE00D9C679 /* GoRemindersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BAC341F435AEE00D9C679 /* GoRemindersTests.m */; };
+		963BAC791F449C0E00D9C679 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 963BAC781F449C0E00D9C679 /* GoogleService-Info.plist */; };
 		A179D912ED7D30667CF9A3A8 /* libPods-GoReminders.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 250B468B7CD9BD0E08B1C6CD /* libPods-GoReminders.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		963BAC301F435AEE00D9C679 /* GoRemindersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoRemindersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		963BAC341F435AEE00D9C679 /* GoRemindersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoRemindersTests.m; sourceTree = "<group>"; };
 		963BAC361F435AEE00D9C679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963BAC781F449C0E00D9C679 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9B2117EB999F51DE1004B4BE /* Pods-GoReminders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReminders.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoReminders/Pods-GoReminders.release.xcconfig"; sourceTree = "<group>"; };
 		F8A9AA23FAAA246E16A88E0F /* Pods-GoRemindersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoRemindersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoRemindersTests/Pods-GoRemindersTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 				963BAC2B1F435AEE00D9C679 /* Info.plist */,
 				963BAC231F435AEE00D9C679 /* GoReminders.xcdatamodeld */,
 				963BAC171F435AEE00D9C679 /* Supporting Files */,
+				963BAC781F449C0E00D9C679 /* GoogleService-Info.plist */,
 			);
 			path = GoReminders;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				963BAC2A1F435AEE00D9C679 /* LaunchScreen.storyboard in Resources */,
+				963BAC791F449C0E00D9C679 /* GoogleService-Info.plist in Resources */,
 				963BAC271F435AEE00D9C679 /* Assets.xcassets in Resources */,
 				963BAC221F435AEE00D9C679 /* Main.storyboard in Resources */,
 			);
@@ -567,6 +571,7 @@
 				963BAC3B1F435AEE00D9C679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		963BAC3C1F435AEE00D9C679 /* Build configuration list for PBXNativeTarget "GoRemindersTests" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +580,7 @@
 				963BAC3E1F435AEE00D9C679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
