@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17167242406C83D5C51617C3 /* libPods-GoRemindersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF2479022128306147995DD /* libPods-GoRemindersTests.a */; };
 		963BAC191F435AEE00D9C679 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BAC181F435AEE00D9C679 /* main.m */; };
 		963BAC1C1F435AEE00D9C679 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BAC1B1F435AEE00D9C679 /* AppDelegate.m */; };
 		963BAC1F1F435AEE00D9C679 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BAC1E1F435AEE00D9C679 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		963BAC271F435AEE00D9C679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963BAC261F435AEE00D9C679 /* Assets.xcassets */; };
 		963BAC2A1F435AEE00D9C679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963BAC281F435AEE00D9C679 /* LaunchScreen.storyboard */; };
 		963BAC351F435AEE00D9C679 /* GoRemindersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BAC341F435AEE00D9C679 /* GoRemindersTests.m */; };
+		A179D912ED7D30667CF9A3A8 /* libPods-GoReminders.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 250B468B7CD9BD0E08B1C6CD /* libPods-GoReminders.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0153FBA6F94DE6E6296F1750 /* Pods-GoReminders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReminders.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoReminders/Pods-GoReminders.debug.xcconfig"; sourceTree = "<group>"; };
+		250B468B7CD9BD0E08B1C6CD /* libPods-GoReminders.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoReminders.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF2479022128306147995DD /* libPods-GoRemindersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoRemindersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E513EC0A9605B8ED57C626 /* Pods-GoRemindersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoRemindersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoRemindersTests/Pods-GoRemindersTests.release.xcconfig"; sourceTree = "<group>"; };
 		963BAC141F435AEE00D9C679 /* GoReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		963BAC181F435AEE00D9C679 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		963BAC1A1F435AEE00D9C679 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +48,8 @@
 		963BAC301F435AEE00D9C679 /* GoRemindersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoRemindersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		963BAC341F435AEE00D9C679 /* GoRemindersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoRemindersTests.m; sourceTree = "<group>"; };
 		963BAC361F435AEE00D9C679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2117EB999F51DE1004B4BE /* Pods-GoReminders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReminders.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoReminders/Pods-GoReminders.release.xcconfig"; sourceTree = "<group>"; };
+		F8A9AA23FAAA246E16A88E0F /* Pods-GoRemindersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoRemindersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoRemindersTests/Pods-GoRemindersTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A179D912ED7D30667CF9A3A8 /* libPods-GoReminders.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,18 +65,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17167242406C83D5C51617C3 /* libPods-GoRemindersTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C72A7031CF1D7F9141A0F16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0153FBA6F94DE6E6296F1750 /* Pods-GoReminders.debug.xcconfig */,
+				9B2117EB999F51DE1004B4BE /* Pods-GoReminders.release.xcconfig */,
+				F8A9AA23FAAA246E16A88E0F /* Pods-GoRemindersTests.debug.xcconfig */,
+				91E513EC0A9605B8ED57C626 /* Pods-GoRemindersTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		963BAC0B1F435AEE00D9C679 = {
 			isa = PBXGroup;
 			children = (
 				963BAC161F435AEE00D9C679 /* GoReminders */,
 				963BAC331F435AEE00D9C679 /* GoRemindersTests */,
 				963BAC151F435AEE00D9C679 /* Products */,
+				4C72A7031CF1D7F9141A0F16 /* Pods */,
+				D43EE101ABA958578E08F94E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +137,15 @@
 			path = GoRemindersTests;
 			sourceTree = "<group>";
 		};
+		D43EE101ABA958578E08F94E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				250B468B7CD9BD0E08B1C6CD /* libPods-GoReminders.a */,
+				5DF2479022128306147995DD /* libPods-GoRemindersTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 963BAC391F435AEE00D9C679 /* Build configuration list for PBXNativeTarget "GoReminders" */;
 			buildPhases = (
+				5F4722750EFF52A4AF4BDA9B /* [CP] Check Pods Manifest.lock */,
 				963BAC101F435AEE00D9C679 /* Sources */,
 				963BAC111F435AEE00D9C679 /* Frameworks */,
 				963BAC121F435AEE00D9C679 /* Resources */,
+				DFB1D9FC1A32B8A505A427B5 /* [CP] Embed Pods Frameworks */,
+				CBBAC04EBB6304D119277F69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 963BAC3C1F435AEE00D9C679 /* Build configuration list for PBXNativeTarget "GoRemindersTests" */;
 			buildPhases = (
+				D32F8C9445ADF47D75B64130 /* [CP] Check Pods Manifest.lock */,
 				963BAC2C1F435AEE00D9C679 /* Sources */,
 				963BAC2D1F435AEE00D9C679 /* Frameworks */,
 				963BAC2E1F435AEE00D9C679 /* Resources */,
+				6AA2E4BB486B662CEB6F03FB /* [CP] Embed Pods Frameworks */,
+				ECBA03021C160D4D62A46AED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +250,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F4722750EFF52A4AF4BDA9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoReminders-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AA2E4BB486B662CEB6F03FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoRemindersTests/Pods-GoRemindersTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBBAC04EBB6304D119277F69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoReminders/Pods-GoReminders-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoReminders/Pods-GoReminders-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D32F8C9445ADF47D75B64130 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoRemindersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB1D9FC1A32B8A505A427B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoReminders/Pods-GoReminders-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECBA03021C160D4D62A46AED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoRemindersTests/Pods-GoRemindersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		963BAC101F435AEE00D9C679 /* Sources */ = {
@@ -355,6 +496,7 @@
 		};
 		963BAC3A1F435AEE00D9C679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0153FBA6F94DE6E6296F1750 /* Pods-GoReminders.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K8HU92W3ZM;
@@ -367,6 +509,7 @@
 		};
 		963BAC3B1F435AEE00D9C679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2117EB999F51DE1004B4BE /* Pods-GoReminders.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K8HU92W3ZM;
@@ -379,6 +522,7 @@
 		};
 		963BAC3D1F435AEE00D9C679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A9AA23FAAA246E16A88E0F /* Pods-GoRemindersTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = K8HU92W3ZM;
@@ -392,6 +536,7 @@
 		};
 		963BAC3E1F435AEE00D9C679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E513EC0A9605B8ED57C626 /* Pods-GoRemindersTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = K8HU92W3ZM;
